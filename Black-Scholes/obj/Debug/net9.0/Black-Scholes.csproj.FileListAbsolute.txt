@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\bin\Debug\net9.0\Black-Scholes.exe
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\bin\Debug\net9.0\Black-Scholes.deps.json
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\bin\Debug\net9.0\Black-Scholes.runtimeconfig.json
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\bin\Debug\net9.0\Black-Scholes.dll
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\bin\Debug\net9.0\Black-Scholes.pdb
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.sourcelink.json
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.dll
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\refint\Black-Scholes.dll
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.pdb
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\Black-Scholes.genruntimeconfig.cache
+C:\Users\User\RiderProjects\Black-Scholes\Black-Scholes\obj\Debug\net9.0\ref\Black-Scholes.dll
