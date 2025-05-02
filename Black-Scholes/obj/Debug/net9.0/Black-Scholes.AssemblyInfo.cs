@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Black-Scholes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b31b359b95feaf3441d00e3fa63135906b5738c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c596c8caeca7bbf38819a704008356f7e21435b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Black-Scholes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Black-Scholes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
