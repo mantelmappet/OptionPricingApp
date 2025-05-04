@@ -5,6 +5,8 @@ public partial class Form1 : Form
     private double currentStockPrice = 0;
     private double timeToMaturity = 1;
     private double strikePrice = 1;
+    private double riskFreeRate = 1;
+    private double volatility = 1;
     public Form1()
     {
         InitializeComponent();
@@ -27,14 +29,21 @@ public partial class Form1 : Form
         strikePrice = (double)numericUpDown3.Value;
         UpdateLabel();
     }
-
-
-    private void label1_Click(object sender, EventArgs e)
-    {
-        label1.Text = Calculator.Calculate(strikePrice, currentStockPrice, timeToMaturity, 1, 1).ToString();
-    }
+    
     private void UpdateLabel()
     {
-        label1.Text = Calculator.Calculate((double)strikePrice, (double)currentStockPrice, (double)timeToMaturity, 1, 1).ToString();
+        label1.Text = Calculator.Calculate((double)strikePrice, (double)currentStockPrice, (double)timeToMaturity, riskFreeRate/100, volatility/100).ToString();
+    }
+
+    private void numericUpDown4_ValueChanged(object sender, EventArgs e)
+    {
+        riskFreeRate = (double)numericUpDown4.Value;
+        UpdateLabel();
+    }
+
+    private void numericUpDown5_ValueChanged(object sender, EventArgs e)
+    {
+        volatility = (double)numericUpDown5.Value;
+        UpdateLabel();
     }
 }
