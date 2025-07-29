@@ -41,6 +41,20 @@ partial class Form1
         numericUpDown4 = new System.Windows.Forms.NumericUpDown();
         textBox6 = new System.Windows.Forms.TextBox();
         numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+        textBox7 = new System.Windows.Forms.TextBox();
+        label2 = new System.Windows.Forms.Label();
+        label3 = new System.Windows.Forms.Label();
+        label4 = new System.Windows.Forms.Label();
+        textBox8 = new System.Windows.Forms.TextBox();
+        textBox9 = new System.Windows.Forms.TextBox();
+        label5 = new System.Windows.Forms.Label();
+        label6 = new System.Windows.Forms.Label();
+        textBox10 = new System.Windows.Forms.TextBox();
+        textBox11 = new System.Windows.Forms.TextBox();
+        textBox12 = new System.Windows.Forms.TextBox();
+        textBox13 = new System.Windows.Forms.TextBox();
+        label7 = new System.Windows.Forms.Label();
+        label8 = new System.Windows.Forms.Label();
         ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
         ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
         ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
@@ -78,7 +92,7 @@ partial class Form1
         // label1
         // 
         label1.BackColor = System.Drawing.Color.DarkGray;
-        label1.Location = new System.Drawing.Point(11, 328);
+        label1.Location = new System.Drawing.Point(293, 56);
         label1.Name = "label1";
         label1.Size = new System.Drawing.Size(161, 55);
         label1.TabIndex = 4;
@@ -115,11 +129,14 @@ partial class Form1
         // textBox4
         // 
         textBox4.BackColor = System.Drawing.Color.Gold;
-        textBox4.Location = new System.Drawing.Point(11, 298);
+        textBox4.Location = new System.Drawing.Point(293, 13);
+        textBox4.Multiline = true;
         textBox4.Name = "textBox4";
-        textBox4.Size = new System.Drawing.Size(161, 27);
+        textBox4.Size = new System.Drawing.Size(161, 46);
         textBox4.TabIndex = 8;
-        textBox4.Text = "Black-Scholes Value";
+        textBox4.Text = "Call option price(Black-Scholes)";
+        textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        textBox4.TextChanged += textBox4_TextChanged;
         // 
         // textBox5
         // 
@@ -157,6 +174,154 @@ partial class Form1
         numericUpDown5.TabIndex = 11;
         numericUpDown5.ValueChanged += numericUpDown5_ValueChanged;
         // 
+        // textBox7
+        // 
+        textBox7.BackColor = System.Drawing.Color.Gold;
+        textBox7.Location = new System.Drawing.Point(460, 13);
+        textBox7.Multiline = true;
+        textBox7.Name = "textBox7";
+        textBox7.Size = new System.Drawing.Size(161, 46);
+        textBox7.TabIndex = 14;
+        textBox7.Text = "Put option price (Black-Scholes)";
+        textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // label2
+        // 
+        label2.BackColor = System.Drawing.Color.DarkGray;
+        label2.Location = new System.Drawing.Point(460, 56);
+        label2.Name = "label2";
+        label2.Size = new System.Drawing.Size(161, 55);
+        label2.TabIndex = 13;
+        label2.Text = "0";
+        label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        // 
+        // label3
+        // 
+        label3.BackColor = System.Drawing.Color.DarkGray;
+        label3.Location = new System.Drawing.Point(293, 167);
+        label3.Name = "label3";
+        label3.Size = new System.Drawing.Size(161, 55);
+        label3.TabIndex = 15;
+        label3.Text = "0";
+        label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        label3.Click += label3_Click;
+        // 
+        // label4
+        // 
+        label4.BackColor = System.Drawing.Color.DarkGray;
+        label4.Location = new System.Drawing.Point(460, 167);
+        label4.Name = "label4";
+        label4.Size = new System.Drawing.Size(161, 55);
+        label4.TabIndex = 16;
+        label4.Text = "0";
+        label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        // 
+        // textBox8
+        // 
+        textBox8.BackColor = System.Drawing.Color.Gold;
+        textBox8.Location = new System.Drawing.Point(293, 123);
+        textBox8.Multiline = true;
+        textBox8.Name = "textBox8";
+        textBox8.Size = new System.Drawing.Size(161, 46);
+        textBox8.TabIndex = 17;
+        textBox8.Text = "Call option price(Monte Carlo)";
+        textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // textBox9
+        // 
+        textBox9.BackColor = System.Drawing.Color.Gold;
+        textBox9.Location = new System.Drawing.Point(460, 123);
+        textBox9.Multiline = true;
+        textBox9.Name = "textBox9";
+        textBox9.Size = new System.Drawing.Size(161, 46);
+        textBox9.TabIndex = 18;
+        textBox9.Text = "Put option price(Monte Carlo)";
+        textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // label5
+        // 
+        label5.BackColor = System.Drawing.Color.DarkGray;
+        label5.Location = new System.Drawing.Point(293, 273);
+        label5.Name = "label5";
+        label5.Size = new System.Drawing.Size(161, 55);
+        label5.TabIndex = 19;
+        label5.Text = "0";
+        label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        // 
+        // label6
+        // 
+        label6.BackColor = System.Drawing.Color.DarkGray;
+        label6.Location = new System.Drawing.Point(293, 375);
+        label6.Name = "label6";
+        label6.Size = new System.Drawing.Size(161, 55);
+        label6.TabIndex = 20;
+        label6.Text = "0";
+        label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        // 
+        // textBox10
+        // 
+        textBox10.BackColor = System.Drawing.Color.Gold;
+        textBox10.Location = new System.Drawing.Point(293, 233);
+        textBox10.Multiline = true;
+        textBox10.Name = "textBox10";
+        textBox10.Size = new System.Drawing.Size(161, 46);
+        textBox10.TabIndex = 21;
+        textBox10.Text = "Call option price (absolute difference)";
+        textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // textBox11
+        // 
+        textBox11.BackColor = System.Drawing.Color.Gold;
+        textBox11.Location = new System.Drawing.Point(293, 331);
+        textBox11.Multiline = true;
+        textBox11.Name = "textBox11";
+        textBox11.Size = new System.Drawing.Size(161, 46);
+        textBox11.TabIndex = 22;
+        textBox11.Text = "Call option price(percentage diff)";
+        textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // textBox12
+        // 
+        textBox12.BackColor = System.Drawing.Color.Gold;
+        textBox12.Location = new System.Drawing.Point(460, 331);
+        textBox12.Multiline = true;
+        textBox12.Name = "textBox12";
+        textBox12.Size = new System.Drawing.Size(161, 46);
+        textBox12.TabIndex = 26;
+        textBox12.Text = "Put option price(percentage diff)";
+        textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // textBox13
+        // 
+        textBox13.BackColor = System.Drawing.Color.Gold;
+        textBox13.Location = new System.Drawing.Point(460, 233);
+        textBox13.Multiline = true;
+        textBox13.Name = "textBox13";
+        textBox13.Size = new System.Drawing.Size(161, 46);
+        textBox13.TabIndex = 25;
+        textBox13.Text = "Put option price (absolute difference)";
+        textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+        // 
+        // label7
+        // 
+        label7.BackColor = System.Drawing.Color.DarkGray;
+        label7.Location = new System.Drawing.Point(460, 273);
+        label7.Name = "label7";
+        label7.Size = new System.Drawing.Size(161, 55);
+        label7.TabIndex = 24;
+        label7.Text = "0";
+        label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        // 
+        // label8
+        // 
+        label8.BackColor = System.Drawing.Color.DarkGray;
+        label8.Location = new System.Drawing.Point(460, 375);
+        label8.Name = "label8";
+        label8.Size = new System.Drawing.Size(161, 55);
+        label8.TabIndex = 23;
+        label8.Text = "0";
+        label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+        // 
         // Form1
         // 
         AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -165,6 +330,20 @@ partial class Form1
         BackColor = System.Drawing.Color.CadetBlue;
         BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
         ClientSize = new System.Drawing.Size(800, 450);
+        Controls.Add(textBox12);
+        Controls.Add(textBox13);
+        Controls.Add(label7);
+        Controls.Add(label8);
+        Controls.Add(textBox11);
+        Controls.Add(textBox10);
+        Controls.Add(label6);
+        Controls.Add(label5);
+        Controls.Add(textBox9);
+        Controls.Add(textBox8);
+        Controls.Add(label4);
+        Controls.Add(label3);
+        Controls.Add(textBox7);
+        Controls.Add(label2);
         Controls.Add(textBox6);
         Controls.Add(numericUpDown5);
         Controls.Add(textBox5);
@@ -188,6 +367,26 @@ partial class Form1
         ResumeLayout(false);
         PerformLayout();
     }
+
+    private System.Windows.Forms.TextBox textBox12;
+    private System.Windows.Forms.TextBox textBox13;
+    private System.Windows.Forms.Label label7;
+    private System.Windows.Forms.Label label8;
+
+    private System.Windows.Forms.Label label5;
+    private System.Windows.Forms.Label label6;
+    private System.Windows.Forms.TextBox textBox10;
+    private System.Windows.Forms.TextBox textBox11;
+
+    private System.Windows.Forms.TextBox textBox8;
+    private System.Windows.Forms.TextBox textBox9;
+
+    private System.Windows.Forms.Label label4;
+
+    private System.Windows.Forms.Label label3;
+
+    private System.Windows.Forms.TextBox textBox7;
+    private System.Windows.Forms.Label label2;
 
     private System.Windows.Forms.TextBox textBox5;
     private System.Windows.Forms.NumericUpDown numericUpDown4;

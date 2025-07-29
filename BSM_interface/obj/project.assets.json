@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Black-Scholes.dll": {}
         }
+      },
+      "MonteCarloSim/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MonteCarloSim.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonteCarloSim.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Black-Scholes/Black-Scholes.csproj",
       "msbuildProject": "../Black-Scholes/Black-Scholes.csproj"
+    },
+    "MonteCarloSim/1.0.0": {
+      "type": "project",
+      "path": "../MonteCarloSim/MonteCarloSim.csproj",
+      "msbuildProject": "../MonteCarloSim/MonteCarloSim.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
-      "Black-Scholes >= 1.0.0"
+      "Black-Scholes >= 1.0.0",
+      "MonteCarloSim >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,6 +76,9 @@
           "projectReferences": {
             "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\Black-Scholes.csproj": {
               "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\Black-Scholes.csproj"
+            },
+            "C:\\Users\\User\\RiderProjects\\Black-Scholes\\MonteCarloSim\\MonteCarloSim.csproj": {
+              "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\MonteCarloSim\\MonteCarloSim.csproj"
             }
           }
         }

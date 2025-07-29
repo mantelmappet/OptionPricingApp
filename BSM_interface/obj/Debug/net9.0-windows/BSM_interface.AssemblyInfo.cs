@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BSM_interface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cd9cada4e840f750f9cc9d2a3485d00ef28e82b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75488a0a6c51f5792dfdb4a334fac8458d230afc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BSM_interface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BSM_interface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

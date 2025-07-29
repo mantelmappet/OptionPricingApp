@@ -1,5 +1,6 @@
 namespace BSM_interface;
 using Black_Scholes;
+using MonteCarloSim;
 public partial class Form1 : Form
 {
     private double currentStockPrice = 0;
@@ -30,10 +31,7 @@ public partial class Form1 : Form
         UpdateLabel();
     }
     
-    private void UpdateLabel()
-    {
-        label1.Text = Calculator.Calculate((double)strikePrice, (double)currentStockPrice, (double)timeToMaturity, riskFreeRate/100, volatility/100).ToString();
-    }
+    
 
     private void numericUpDown4_ValueChanged(object sender, EventArgs e)
     {
@@ -45,5 +43,38 @@ public partial class Form1 : Form
     {
         volatility = (double)numericUpDown5.Value;
         UpdateLabel();
+    }
+    private void UpdateLabel()
+    {
+        double bsCall = Black_Scholes.Calculator.Calculate(strikePrice, currentStockPrice, timeToMaturity,
+            riskFreeRate / 100, volatility / 100);
+        double bsPut = Black_Scholes.Calculator.CalculatePut(strikePrice, currentStockPrice, timeToMaturity,
+            riskFreeRate / 100, volatility / 100);
+        double mcCall = MonteCarloSim.Calculator.CalcEurpeanCall(strikePrice, currentStockPrice, timeToMaturity,
+            riskFreeRate / 100, volatility / 100);
+        double mcPut = MonteCarloSim.Calculator.CalcEurpeanPut(strikePrice, currentStockPrice, timeToMaturity,
+            riskFreeRate / 100, volatility / 100);
+        double AbsolutDiffCall = Math.Abs(bsCall-mcCall);
+        double AbsolutDiffPut = Math.Abs(bsPut-mcPut);
+        double DifferenceCall = 100 * ((mcCall - bsCall) / bsCall);
+        double DifferencePut = 100 * ((mcPut - bsPut) / bsPut);
+        label1.Text = bsCall.ToString();
+        label2.Text = bsPut.ToString();
+        label3.Text = mcCall.ToString();
+        label4.Text = mcPut.ToString();
+        label5.Text = AbsolutDiffCall.ToString();
+        label6.Text = DifferenceCall.ToString();
+        label7.Text = AbsolutDiffPut.ToString();
+        label8.Text = DifferencePut.ToString();
+    }
+
+    private void textBox4_TextChanged(object sender, EventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    private void label3_Click(object sender, EventArgs e)
+    {
+        throw new System.NotImplementedException();
     }
 }
