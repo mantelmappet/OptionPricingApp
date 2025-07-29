@@ -31,10 +31,10 @@ public partial class MainWindow : Window
             return;
         }
 
-        double bsCall = BlackScholes.Calculator.Calculate(S, K, T, r/100, sigma/100);
-        double bsPut = BlackScholes.Calculator.CalculatePut(S, K, T, r / 100, sigma / 100);
-        double mcCall = MonteCarloSim.Calculator.CalcEurpeanCall(S, K, T, r / 100, sigma / 100);
-        double mcPut = MonteCarloSim.Calculator.CalcEurpeanPut(S, K, T, r / 100, sigma / 100);
+        double bsCall = BlackScholes.Calculator.Calculate(K, S, T, r/100, sigma/100);
+        double bsPut = BlackScholes.Calculator.CalculatePut(K, S, T, r / 100, sigma / 100);
+        double mcCall = MonteCarloSim.Calculator.CalcEurpeanCall(K, S, T, r / 100, sigma / 100);
+        double mcPut = MonteCarloSim.Calculator.CalcEurpeanPut(K, S, T, r / 100, sigma / 100);
 
         double absDiff = Math.Abs(bsCall - mcCall);
         double percDiff = bsCall != 0 ? absDiff / bsCall * 100 : 0;

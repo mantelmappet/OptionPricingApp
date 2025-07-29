@@ -14,7 +14,7 @@ public class Calculator
     public static double CalculatePut(double strikePrice, double currentStockPrice, double timeToExpiration, double riskFreeRate,
         double volatility)
     {
-        double d1 = Math.Log(currentStockPrice / strikePrice) + (riskFreeRate + 0.5 * Math.Pow(volatility, 2)*timeToExpiration) / (volatility*Math.Sqrt(timeToExpiration));
+        double d1 = (Math.Log(currentStockPrice / strikePrice) + (riskFreeRate + 0.5 * Math.Pow(volatility, 2)) * timeToExpiration) / (volatility * Math.Sqrt(timeToExpiration));
         double d2 = d1 - (volatility * Math.Sqrt(timeToExpiration));
         double N1 = CumulativeDistributionFunction.CDF(d1*-1); 
         double N2 = CumulativeDistributionFunction.CDF(d2*-1);

@@ -35,7 +35,7 @@ public class Calculator
             double z = SampleStandardNormal();
             double result = currentStockPrice * Math.Exp((riskFreeRate - 0.5 * volatility * volatility) * timeToExpiration +
                                                          volatility * Math.Sqrt(timeToExpiration)*z);
-            double actualResult = Math.Min(strikePrice-result, 0.0);
+            double actualResult = Math.Max(strikePrice-result, 0.0);
             resultSum = resultSum + actualResult;
         } 
         return Math.Exp(-riskFreeRate * timeToExpiration) * (resultSum / numSimulations);
