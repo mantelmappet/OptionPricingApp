@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Black-Scholes\Black-Scholes.csproj" />
+      <ProjectReference Include="..\Black-Scholes\BlackScholes.csproj" />
       <ProjectReference Include="..\MonteCarloSim\MonteCarloSim.csproj" />
     </ItemGroup>
 

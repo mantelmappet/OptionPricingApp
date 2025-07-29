@@ -2,14 +2,14 @@
   "version": 3,
   "targets": {
     "net9.0-windows7.0": {
-      "Black-Scholes/1.0.0": {
+      "BlackScholes/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/Black-Scholes.dll": {}
+          "bin/placeholder/BlackScholes.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Black-Scholes.dll": {}
+          "bin/placeholder/BlackScholes.dll": {}
         }
       },
       "MonteCarloSim/1.0.0": {
@@ -25,10 +25,10 @@
     }
   },
   "libraries": {
-    "Black-Scholes/1.0.0": {
+    "BlackScholes/1.0.0": {
       "type": "project",
-      "path": "../Black-Scholes/Black-Scholes.csproj",
-      "msbuildProject": "../Black-Scholes/Black-Scholes.csproj"
+      "path": "../Black-Scholes/BlackScholes.csproj",
+      "msbuildProject": "../Black-Scholes/BlackScholes.csproj"
     },
     "MonteCarloSim/1.0.0": {
       "type": "project",
@@ -38,7 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
-      "Black-Scholes >= 1.0.0",
+      "BlackScholes >= 1.0.0",
       "MonteCarloSim >= 1.0.0"
     ]
   },
@@ -74,8 +74,8 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\Black-Scholes.csproj": {
-              "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\Black-Scholes.csproj"
+            "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\BlackScholes.csproj": {
+              "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\BlackScholes.csproj"
             },
             "C:\\Users\\User\\RiderProjects\\Black-Scholes\\MonteCarloSim\\MonteCarloSim.csproj": {
               "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\MonteCarloSim\\MonteCarloSim.csproj"

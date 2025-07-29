@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\Black-Scholes.csproj",
-      "projectName": "Black-Scholes",
-      "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\Black-Scholes.csproj",
+      "projectUniqueName": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\BlackScholes.csproj",
+      "projectName": "BlackScholes",
+      "projectPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\BlackScholes.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Black-Scholes\\obj\\",
       "projectStyle": "PackageReference",

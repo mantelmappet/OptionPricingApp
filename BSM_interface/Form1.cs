@@ -1,5 +1,5 @@
 namespace BSM_interface;
-using Black_Scholes;
+using BlackScholes;
 using MonteCarloSim;
 public partial class Form1 : Form
 {
@@ -46,9 +46,9 @@ public partial class Form1 : Form
     }
     private void UpdateLabel()
     {
-        double bsCall = Black_Scholes.Calculator.Calculate(strikePrice, currentStockPrice, timeToMaturity,
+        double bsCall = BlackScholes.Calculator.Calculate(strikePrice, currentStockPrice, timeToMaturity,
             riskFreeRate / 100, volatility / 100);
-        double bsPut = Black_Scholes.Calculator.CalculatePut(strikePrice, currentStockPrice, timeToMaturity,
+        double bsPut = BlackScholes.Calculator.CalculatePut(strikePrice, currentStockPrice, timeToMaturity,
             riskFreeRate / 100, volatility / 100);
         double mcCall = MonteCarloSim.Calculator.CalcEurpeanCall(strikePrice, currentStockPrice, timeToMaturity,
             riskFreeRate / 100, volatility / 100);

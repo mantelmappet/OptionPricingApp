@@ -1,4 +1,4 @@
-namespace Black_Scholes;
+namespace BlackScholes;
 
 public class CumulativeDistributionFunction
 {

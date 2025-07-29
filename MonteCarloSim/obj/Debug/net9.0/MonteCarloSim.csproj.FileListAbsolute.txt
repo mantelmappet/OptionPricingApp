@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\bin\Debug\net9.0\MonteCarloSim.exe
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\bin\Debug\net9.0\MonteCarloSim.deps.json
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\bin\Debug\net9.0\MonteCarloSim.runtimeconfig.json
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\bin\Debug\net9.0\MonteCarloSim.dll
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\bin\Debug\net9.0\MonteCarloSim.pdb
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.sourcelink.json
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.dll
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\refint\MonteCarloSim.dll
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.pdb
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\MonteCarloSim.genruntimeconfig.cache
+C:\Users\User\RiderProjects\Black-Scholes\MonteCarloSim\obj\Debug\net9.0\ref\MonteCarloSim.dll
