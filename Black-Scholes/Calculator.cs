@@ -9,7 +9,7 @@ public class Calculator
         double d2 = d1 - (volatility * Math.Sqrt(timeToExpiration));
         double N1 = CumulativeDistributionFunction.CDF(d1); 
         double N2 = CumulativeDistributionFunction.CDF(d2);
-        return currentStockPrice * N1 - strikePrice * Math.Exp(-1*riskFreeRate*timeToExpiration)*N2;
+        return Math.Max(currentStockPrice * N1 - strikePrice * Math.Exp(-1*riskFreeRate*timeToExpiration)*N2, 0.0);
     }
     public static double CalculatePut(double strikePrice, double currentStockPrice, double timeToExpiration, double riskFreeRate,
         double volatility)
@@ -18,6 +18,6 @@ public class Calculator
         double d2 = d1 - (volatility * Math.Sqrt(timeToExpiration));
         double N1 = CumulativeDistributionFunction.CDF(d1*-1); 
         double N2 = CumulativeDistributionFunction.CDF(d2*-1);
-        return strikePrice * Math.Exp(-1*riskFreeRate*timeToExpiration)*N2-currentStockPrice * N1;
+        return Math.Max(strikePrice * Math.Exp(-1*riskFreeRate*timeToExpiration)*N2-currentStockPrice * N1, 0.0);
     }
 }

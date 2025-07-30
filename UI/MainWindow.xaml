@@ -1,7 +1,9 @@
 ﻿<Window x:Class="UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Option Pricing Calculator" Height="400" Width="650"
+        Title="Option Pricing Calculator"
+        Width="900"
+        Height="500"
         WindowStartupLocation="CenterScreen"
         Background="#F9F9F9"
         FontFamily="Segoe UI" FontSize="14">
@@ -73,10 +75,10 @@
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Monte Carlo Put Price:" FontWeight="SemiBold" />
                 <TextBlock Grid.Row="3" Grid.Column="1" Name="MCPPriceTextBlock" Text="-" />
 
-                <TextBlock Grid.Row="4" Grid.Column="0" Text="Absolute Difference:" FontWeight="SemiBold" />
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Absolute Difference(Call):" FontWeight="SemiBold" />
                 <TextBlock Grid.Row="4" Grid.Column="1" Name="AbsDiffTextBlock" Text="-" />
 
-                <TextBlock Grid.Row="5" Grid.Column="0" Text="Percentage Difference:" FontWeight="SemiBold" />
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Percentage Difference(Call):" FontWeight="SemiBold" />
                 <TextBlock Grid.Row="5" Grid.Column="1" Name="PercDiffTextBlock" Text="-" />
             </Grid>
         </StackPanel>
