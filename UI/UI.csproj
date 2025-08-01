@@ -10,7 +10,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Black-Scholes\BlackScholes.csproj" />
+    <ProjectReference Include="..\Charts\Charts.csproj" />
     <ProjectReference Include="..\MonteCarloSim\MonteCarloSim.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot.WinForms" Version="5.0.55" />
   </ItemGroup>
 
 </Project>

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7958ABC0-50BA-4E1D-90F2-DBFE1C28E6E0}|UI\\UI.csproj|c:\\users\\user\\riderprojects\\black-scholes\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7958ABC0-50BA-4E1D-90F2-DBFE1C28E6E0}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F7313BDF-7E35-4807-A5A5-51F83AF25B30}|Charts\\Charts.csproj|c:\\users\\user\\riderprojects\\black-scholes\\charts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7313BDF-7E35-4807-A5A5-51F83AF25B30}|Charts\\Charts.csproj|solutionrelative:charts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\UI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\UI\\MainWindow.xaml",
-              "RelativeToolTip": "UI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-29T20:38:51.281Z",
-              "EditorCaption": ""
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Charts\\Form1.cs",
+              "RelativeDocumentMoniker": "Charts\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\RiderProjects\\Black-Scholes\\Charts\\Form1.cs [Design]",
+              "RelativeToolTip": "Charts\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:54:08.569Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

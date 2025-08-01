@@ -19,7 +19,6 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
-
     private void CalculateButton_Click(object sender, RoutedEventArgs e)
     {
         if (!double.TryParse(SpotPriceTextBox.Text, out double S) ||
@@ -30,6 +29,7 @@ public partial class MainWindow : Window
         {
             return;
         }
+        
 
         double bsCall = BlackScholes.Calculator.Calculate(K, S, T, r/100, sigma/100);
         double bsPut = BlackScholes.Calculator.CalculatePut(K, S, T, r / 100, sigma / 100);
@@ -45,6 +45,9 @@ public partial class MainWindow : Window
         MCPPriceTextBlock.Text = mcPut.ToString("F4");
         AbsDiffTextBlock.Text = absDiff.ToString("F4");
         PercDiffTextBlock.Text = percDiff.ToString("F2") + " %";
+        string[] myValues = { S.ToString(), K.ToString(), T.ToString(), r.ToString(), sigma.ToString() };
+        Charts.Form1 chartForm = new Charts.Form1(myValues);
+        chartForm.Show();
     }   
 
 }

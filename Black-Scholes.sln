@@ -5,11 +5,11 @@ VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackScholes", "Black-Scholes\BlackScholes.csproj", "{BDDBAD53-FE7A-44E2-8686-EA604215282B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSM_interface", "BSM_interface\BSM_interface.csproj", "{CDB0AD2F-A41C-4B68-B8F5-AFC302F14418}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonteCarloSim", "MonteCarloSim\MonteCarloSim.csproj", "{CE2B75C6-91B3-474E-88F4-0ECC371770B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{7958ABC0-50BA-4E1D-90F2-DBFE1C28E6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charts", "Charts\Charts.csproj", "{F7313BDF-7E35-4807-A5A5-51F83AF25B30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{BDDBAD53-FE7A-44E2-8686-EA604215282B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDDBAD53-FE7A-44E2-8686-EA604215282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDDBAD53-FE7A-44E2-8686-EA604215282B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDB0AD2F-A41C-4B68-B8F5-AFC302F14418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDB0AD2F-A41C-4B68-B8F5-AFC302F14418}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDB0AD2F-A41C-4B68-B8F5-AFC302F14418}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDB0AD2F-A41C-4B68-B8F5-AFC302F14418}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE2B75C6-91B3-474E-88F4-0ECC371770B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE2B75C6-91B3-474E-88F4-0ECC371770B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE2B75C6-91B3-474E-88F4-0ECC371770B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{7958ABC0-50BA-4E1D-90F2-DBFE1C28E6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7958ABC0-50BA-4E1D-90F2-DBFE1C28E6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7958ABC0-50BA-4E1D-90F2-DBFE1C28E6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7313BDF-7E35-4807-A5A5-51F83AF25B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7313BDF-7E35-4807-A5A5-51F83AF25B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7313BDF-7E35-4807-A5A5-51F83AF25B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7313BDF-7E35-4807-A5A5-51F83AF25B30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
